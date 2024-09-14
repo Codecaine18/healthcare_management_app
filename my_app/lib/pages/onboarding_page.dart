@@ -1,7 +1,7 @@
 // import 'dart:math';
 
 import 'package:flutter/material.dart';
-// import 'package:flutter/widgets.dart';
+import 'package:flutter/widgets.dart';
 import 'package:my_app/widgets/onboarding_card.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -20,7 +20,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
     OnboardingCard(
       image: "assets/images/dcotor.jpeg",
       imageHeight: 400,
-      imageWidth : 400;
+      imageWidth : 400,
       title: "Welcome to MediCo!",
       description:
           "Manage your health effortlessly and stay connected with your provider.",
